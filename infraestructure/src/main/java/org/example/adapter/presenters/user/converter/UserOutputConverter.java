@@ -1,7 +1,7 @@
-package org.example.presenters.user.converts;
+package org.example.adapter.presenters.user.converter;
 
+import org.example.adapter.presenters.user.UserInput;
 import org.example.model.User;
-import org.example.presenters.user.UserInput;
 import org.springframework.stereotype.Component;
 
 @Component

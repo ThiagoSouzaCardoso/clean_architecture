@@ -1,4 +1,4 @@
-package org.example.presenters.user.converts;
+package org.example.adapter.presenters.user.converter;
 
 public interface PresentersConverter<PRESENTERS, ENTITY> {
 

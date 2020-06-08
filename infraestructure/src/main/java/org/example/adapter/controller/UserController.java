@@ -2,10 +2,10 @@ package org.example.adapter.controller;
 
 import java.net.URI;
 
+import org.example.adapter.presenters.user.UserInput;
+import org.example.adapter.presenters.user.UserOutput;
+import org.example.adapter.presenters.user.converter.PresentersConverter;
 import org.example.model.User;
-import org.example.presenters.user.UserInput;
-import org.example.presenters.user.UserOutput;
-import org.example.presenters.user.converts.PresentersConverter;
 import org.example.usecase.createuser.CreateUser;
 import org.example.usecase.findoneuser.FindOneUser;
 import org.springframework.http.ResponseEntity;

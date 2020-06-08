@@ -2,6 +2,7 @@ package org.example.configuration;
 
 import org.example.adapter.encode.sha256.Sha256PasswordEncoder;
 import org.example.adapter.idgenerator.jud.JugIdGenerator;
+import org.example.ports.UserRepository;
 import org.example.usecase.createuser.CreateUser;
 import org.example.usecase.createuser.CreateUserImpl;
 import org.example.usecase.findoneuser.FindOneUser;
@@ -16,7 +17,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 public class ApplicationConfiguration {
 
 	@Autowired
-	private org.example.ports.UserRepository repoUserRepository;
+	private UserRepository repoUserRepository;
 
 	@Autowired
 	private JugIdGenerator jug;

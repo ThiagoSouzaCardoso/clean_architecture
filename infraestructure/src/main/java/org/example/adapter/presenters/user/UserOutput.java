@@ -1,4 +1,4 @@
-package org.example.presenters.user;
+package org.example.adapter.presenters.user;
 
 import java.io.Serializable;
 
@@ -11,13 +11,12 @@ import lombok.Setter;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserInput implements Serializable {
+public class UserOutput implements Serializable {
 
 	private static final long serialVersionUID = 8677511859422718960L;
 
 	private String id;
 	private String email;
-	private String password;
 	private String lastName;
 	private String firstName;
 
