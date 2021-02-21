@@ -1,4 +1,4 @@
-package org.example.ports;
+package org.example.ports.repository;
 
 import java.util.List;
 import java.util.Optional;
@@ -10,7 +10,7 @@ public interface FindUserRepository {
 	Boolean doesUserEmailExists(String email);
 	
 	Optional<User> findById(String id);
-	
-	List<User> findAllUsers();
+
+	List<User> findAllUsersPaginated(int pageNo, int pageSize);
 	
 }

@@ -1,7 +1,7 @@
 package org.example.usecase.findoneuser;
 
 import org.example.model.User;
-import org.example.ports.UserRepository;
+import org.example.ports.repository.UserRepository;
 import org.example.usecase.findoneuser.exception.UserNotFoundException;
 
 public final class FindOneUserImpl implements FindOneUser {

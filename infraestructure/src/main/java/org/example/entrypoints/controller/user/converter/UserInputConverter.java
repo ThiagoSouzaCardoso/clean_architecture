@@ -1,6 +1,6 @@
-package org.example.adapter.presenters.user.converter;
+package org.example.entrypoints.controller.user.converter;
 
-import org.example.adapter.presenters.user.UserOutput;
+import org.example.entrypoints.controller.user.UserOutput;
 import org.example.model.User;
 import org.springframework.stereotype.Component;
 
@@ -9,7 +9,7 @@ public class UserInputConverter implements PresentersConverter<UserOutput, User>
 
 	@Override
 	public User mapToEntity(final UserOutput rest) {
-		throw new UnsupportedOperationException();
+		return null;
 	}
 
 	@Override

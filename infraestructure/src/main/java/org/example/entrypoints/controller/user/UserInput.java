@@ -1,4 +1,4 @@
-package org.example.adapter.presenters.user;
+package org.example.entrypoints.controller.user;
 
 import java.io.Serializable;
 

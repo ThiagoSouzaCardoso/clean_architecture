@@ -1,13 +1,11 @@
-package org.example.adapters.sha256;
+package org.example.adapters.encoders.sha256;
 
 import org.apache.commons.codec.digest.DigestUtils;
-import org.example.ports.PasswordEncoder;
-import org.springframework.stereotype.Component;
+import org.example.ports.encode.PasswordEncoder;
 
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
-@Component
 public class Sha256PasswordEncoder implements PasswordEncoder {
 
 	@Override

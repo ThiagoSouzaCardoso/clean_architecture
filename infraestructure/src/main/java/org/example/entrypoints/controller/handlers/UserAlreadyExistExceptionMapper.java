@@ -1,4 +1,4 @@
-package org.example.adapter.controller.mapper;
+package org.example.entrypoints.controller.handlers;
 
 import static org.springframework.http.HttpStatus.CONFLICT;
 

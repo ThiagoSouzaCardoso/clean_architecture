@@ -1,4 +1,4 @@
-package org.example.dataproviders.databases.m2.convert;
+package org.example.dataproviders.databases.convert;
 
 public interface RepositoryConverter<DOMAIN, TABLE> {
 

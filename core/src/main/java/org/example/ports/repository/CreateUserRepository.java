@@ -1,4 +1,4 @@
-package org.example.ports;
+package org.example.ports.repository;
 
 import org.example.model.User;
 

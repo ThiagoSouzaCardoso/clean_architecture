@@ -1,8 +1,9 @@
-package org.example.dataproviders.databases.m2.convert;
+package org.example.dataproviders.databases.convert;
 
-import org.example.dataproviders.databases.m2.entity.UserEntity;
+import org.example.dataproviders.databases.entity.UserEntity;
 import org.example.model.User;
 
+import java.util.Optional;
 import java.util.UUID;
 
 public class UserRepositoryConverter implements RepositoryConverter<User, UserEntity> {
@@ -10,7 +11,7 @@ public class UserRepositoryConverter implements RepositoryConverter<User, UserEn
 	@Override
 	public UserEntity mapToTable(final User user) {
 		return UserEntity.builder()
-                .id(UUID.fromString(user.getId().toString()))
+				.id(Optional.ofNullable(user.getId()).map(id -> UUID.fromString(id)).orElse(null))
                 .email(user.getEmail())
                 .password(user.getPassword())
                 .lastName(user.getLastName())

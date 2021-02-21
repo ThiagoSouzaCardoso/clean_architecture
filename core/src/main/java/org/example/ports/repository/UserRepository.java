@@ -1,5 +1,5 @@
-package org.example.ports;
+package org.example.ports.repository;
 
-public interface UserRepository extends FindUserRepository,CreateUserRepository {
+public interface UserRepository extends FindUserRepository, CreateUserRepository {
 
 }

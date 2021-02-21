@@ -1,4 +1,4 @@
-package org.example.adapter.controller.mapper;
+package org.example.entrypoints.controller.handlers;
 
 import org.example.usecase.findoneuser.exception.UserNotFoundException;
 import org.springframework.http.HttpStatus;

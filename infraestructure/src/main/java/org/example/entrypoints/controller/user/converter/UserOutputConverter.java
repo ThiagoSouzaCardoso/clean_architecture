@@ -1,6 +1,6 @@
-package org.example.adapter.presenters.user.converter;
+package org.example.entrypoints.controller.user.converter;
 
-import org.example.adapter.presenters.user.UserInput;
+import org.example.entrypoints.controller.user.UserInput;
 import org.example.model.User;
 import org.springframework.stereotype.Component;
 

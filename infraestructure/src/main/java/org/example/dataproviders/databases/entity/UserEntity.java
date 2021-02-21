@@ -1,4 +1,4 @@
-package org.example.dataproviders.databases.m2.entity;
+package org.example.dataproviders.databases.entity;
 
 import java.io.Serializable;
 import java.util.UUID;
@@ -18,7 +18,7 @@ import org.hibernate.annotations.GenericGenerator;
 @Entity
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-@AllArgsConstructor
+@AllArgsConstructor(access = AccessLevel.PRIVATE)
 @Builder
 public class UserEntity implements Serializable {
 	

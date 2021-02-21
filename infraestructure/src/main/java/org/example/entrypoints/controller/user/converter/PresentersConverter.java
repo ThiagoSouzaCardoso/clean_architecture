@@ -1,4 +1,4 @@
-package org.example.adapter.presenters.user.converter;
+package org.example.entrypoints.controller.user.converter;
 
 public interface PresentersConverter<PRESENTERS, ENTITY> {
 
